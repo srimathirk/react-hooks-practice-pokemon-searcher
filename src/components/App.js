@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PokemonPage from "./PokemonPage";
 
 function App() {
+  
   return (
     <div className="App">
-      <PokemonPage />
+      <PokemonPage/>
     </div>
   );
 }
